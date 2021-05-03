@@ -9,6 +9,9 @@
 //input_ary();
 //swap_ary();
 //print_ary();
+
+//&ary=*ary=pa
+//ary=*pa
 void input_ary(int* pa, int size);
 void swap_ary(int* pa, int* pb, int size);
 void print_ary(int* pa, int size);

@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ary.c" />
+    <ClCompile Include="11-7.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{360c6b19-c4eb-4b7d-8c9a-aa7fd68a58c8}</ProjectGuid>
-    <RootNamespace>My10장</RootNamespace>
+    <ProjectGuid>{72d2c0b1-209e-4637-af5c-42420e4faf7a}</ProjectGuid>
+    <RootNamespace>My11장</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
