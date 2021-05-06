@@ -37,19 +37,7 @@ void div(int a, int b)
 
 }
 
-//void conv(int a)
-//{
-//	
-//	
-//	if (atoi(a)||a==0)
-//	{
-//		return a;
-//	}
-//	else
-//	{
-//		printf("숫자를 넣어주세요\n");
-//	}
-//}
+
 
 int main(void)
 {
