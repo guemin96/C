@@ -15,14 +15,24 @@ typedef struct employee {
 int main()
 {
 
-	Employee num[5];
-	char str[20];
+	Employee num[5] = {0};
+	char temp[80];
+	int pi = 0;
+
+
 	for (size_t i = 0; i < 5; i++)
 	{
-		printf("%d번 사원번호,사원이름, 급여를 적어주세요\n",i+1);
-		scanf(" %d &s %d", &num[i].id, str, &num[i].salary);
-		num->name = (char*)malloc(strlen(str) + 1);
-		strcpy(num->name, str);
+		printf("%d번째 사원의 아이디를 적어주세요",i+1);
+		scanf("%d", &(num[i].id));
+
+		printf("%d번째 사원의 이름을 적어주세요", i + 1);
+		scanf("%s", &temp);
+
+		num[i].name = (char*)malloc(80);
+		strcpy(num[i].name, temp);
+
+		printf("%d번째 사원의 급여를 적어주세요", i + 1);
+		scanf("%d", &(num[i].salary));
 
 	}
 	
@@ -31,9 +41,17 @@ int main()
 
 	for (size_t i = 0; i < 5; i++)
 	{
-		printf("%d %s %d", num->id, num->name, num->salary);
+		printf("%d번째 사원의 아이디,이름, 급여는 %d %s %d입니다\n",i+1, num[i].id, num[i].name, num[i].salary);
 
 	}
+
+	for (size_t i = 0; i < 5; i++)
+	{
+		pi += num[i].salary;
+
+	}
+	printf("%d", pi);
+
 	
 	return 0;
 

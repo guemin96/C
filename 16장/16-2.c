@@ -16,8 +16,8 @@ int main()
 	printf("다섯 명의 나이를 입력하세요 : ");
 	for (size_t i = 0; i < 5; i++)
 	{
-		scanf("%d", &pi[i]);
-		sum += pi[i];
+		scanf("%d", &pi[i]);// 주소값 안에 데이터를 삽입
+		sum += pi[i];// sum=sum+pi[0]+pi[1]+pi[2]
 	}
 	printf("다섯 명의 평균 나이 : %.1lf\n", (sum / 5.0));
 	free(pi);

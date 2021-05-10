@@ -26,3 +26,5 @@ int main()
 	}
 	return 0;
 }
+//pi++(Æ÷ÀÎÅÍ), pi =pi+1
+//ary++ =>ary=ary+1
